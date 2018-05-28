@@ -1,0 +1,26 @@
+{
+  "name": "NPM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "globstar": "^1.0.0"
+  }, 
+"scripts": {
+	"test": "npm run test:html",
+	"test:html": "globstar nu-html-checker *.html"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KowalczykMateusz/NPM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KowalczykMateusz/NPM/issues"
+  },
+  "homepage": "https://github.com/KowalczykMateusz/NPM#readme"
+}
